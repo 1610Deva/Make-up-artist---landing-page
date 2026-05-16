@@ -140,7 +140,12 @@ ul { list-style: none; }
   margin-top: 48px; font-size: 0.75rem; color: var(--gray-400);
   text-transform: uppercase; letter-spacing: 1.5px;
 }
-.hero-tags span { margin: 0 8px; }
+/* .hero-tags span { margin: 0; } */
+.hero-tags span:hover{
+  cursor: pointer;
+  color: var(--pink-500);
+  transition: var(--transition);
+}
 .hero-image {
   position: relative; display: flex; justify-content: center; align-items: center;
 }
